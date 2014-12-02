@@ -1,0 +1,4 @@
+#!/bin/bash
+
+ifconfig en0 | grep -e '\<inet\>' | cut -d' ' -f2
+
